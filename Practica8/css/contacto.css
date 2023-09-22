@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.areaPrincipal{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-grunge-luz-neon-purpura-render-3d_334678-444.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+#encabezado{
+    background: black;
+    height: 240px;
+    text-align: center;
+    background-image: url(file:///C:/Users/JOSE%20LOPEZ%20MENDEZ/Desktop/Practica8/img/Logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumslateblue;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:violet;
+}
+#datos{
+    width: 80%;
+    background-color: blueviolet;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Pie de pagina*/
+.piePagina{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 35px;
+}
+.piePagina p{
+    color: white;
+}
+/*Cuerpo*/
+
+.areaPrincipal p{
+    text-align: center;
+    color: black;
+}
+.areaPrincipal h1{
+    padding: 30px;
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.areaPrincipal h2{
+    padding: auto;
+    color: black;
+    text-align: center;
+}
+.areaPrincipal image{
+    padding: 20px;
+}
+.imagen1{
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin: auto;
+}
+.imagen2{
+    float: right;
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+    padding: auto;
+}
+/*menu deplegable*/
+.nav > li{
+    float: left;
+}
+.nav li ul{ 
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0;
+}
